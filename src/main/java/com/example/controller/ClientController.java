@@ -1,8 +1,6 @@
 package com.example.controller;
 
-import com.example.model.Card;
 import com.example.model.Client;
-import com.example.service.CardService;
 import com.example.service.ClientService;
 import com.example.util.Message;
 import lombok.extern.slf4j.Slf4j;
@@ -14,8 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
-import java.util.List;
 
 @Slf4j
 @RestController

@@ -29,9 +29,9 @@ public class SwaggerConfig {
 
         return new ApiInfoBuilder()
                 .title("API PointFood")
-                .description("API PointFood del curso Aplicaciones Open Source con Spring Boot")
+                .description("API PointFood - Open Source con Spring Boot")
                 .version("1.0")
-                .contact(new Contact("PointFood Corp.", "https://github.com/renzo0809/PointFood", ""))
+                .contact(new Contact("PointFood", "https://github.com/RafaelAnderson/PointFood-Backend", ""))
                 .build();
     }
 }

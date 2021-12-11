@@ -1,9 +1,6 @@
 package com.example.controller;
 
-import com.example.model.Card;
-import com.example.model.Client;
 import com.example.model.Dish;
-import com.example.repository.DishRepository;
 import com.example.service.DishService;
 import com.example.util.Message;
 import lombok.extern.slf4j.Slf4j;
